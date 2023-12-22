@@ -4,7 +4,7 @@ CC = g++
 RM = rm -f
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = FixedPoint
+NAME = ScavTrap
 
 all: $(NAME)
 
