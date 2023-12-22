@@ -3,9 +3,11 @@
 int main() {
     ClapTrap clap("Clappy");
 
-    clap.attack("Target");
+    for (int i = 0; i< 15; i++)
+        clap.attack("Target");
     clap.takeDamage(5);
-    clap.beRepaired(3);
+    for (int i = 0; i< 15; i++)
+        clap.beRepaired(3);
 
     ClapTrap clap2 = clap;
     ClapTrap clap3("Another Clappy");
